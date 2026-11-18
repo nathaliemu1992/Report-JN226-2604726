@@ -30,7 +30,7 @@
         .report-list li { padding: .1rem .4rem; border-bottom: 1px dashed #e1e6eb; }
         .report-list h2 { color: #3c3c3c; font-size: .28rem; font-weight: normal; }
         .report-list p { color: #a4a7ab; font-size: .32rem; font-weight: normal; }
-        .report-list .download-link { color: blue; cursor: pointer; font-size: .32rem; }
+        .report-list .download-link { color: blue; cursor: pointer; }
 
         /* 打印样式 */
         @media print {
@@ -53,16 +53,16 @@
         // 报告数据（纯前端内置，无需后端接口）
         var reportData = {
             testingInstituteName: "国家建筑工程材料质量检验检测中心",
-            testingReportNo: "JN226-220454",
-            testingOrderNo: "JN22-220466",
-            reportDate: "2022-11-15",
-            testingDate: "2022-10-08",
+            testingReportNo: "JN226-260472",
+            testingOrderNo: "JN22-260465",
+            reportDate: "2026-11-18",
+            testingDate: "2026-10-08",
             unitName: "成都市金牛区清河防水材料厂",
             projectName: "无",
             projectSection: "无",
-            sampleNo: "JN22-220466-01",
+            sampleNo: "JN22-260465-01",
             sampleName: "PVC塑料地板胶",
-            specificationModel: "GX360，水基型其他胶粘剂，P型",
+            specificationModel: "GX716，水基型其他胶粘剂，P型",
             manufacturerName: "成都市金牛区清河防水材料厂",
             testingBasisItems: "《室内装饰装修材料 胶粘剂中有害物质限量》(（最新）)、《聚氯乙烯塑料地板胶粘剂》、《聚氯乙烯塑料地板胶粘剂》、《聚氯乙烯塑料地板胶粘剂》",
             isValid: true
@@ -75,7 +75,7 @@
             var downloadBtn = document.getElementById('downloadBtn');
             if (downloadBtn) {
                 downloadBtn.href = 'report.pdf';
-                downloadBtn.download = 'JN226-220454.pdf';
+                downloadBtn.download = 'JN226-260742.pdf';
             }
         });
 
